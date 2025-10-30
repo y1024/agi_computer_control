@@ -1,3 +1,4 @@
+# client requirements: mss, pynput, requests
 import argparse
 import threading
 import json

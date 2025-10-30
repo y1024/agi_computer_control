@@ -24,6 +24,10 @@ AGI can familiarize and simplify things, learn new patterns, take actions and ge
 
 AGI is able to replace half of the human population and maintain the functionality of the human society, in a pure random order. There should be no prejudice based on income rates, ranks, educational backgrounds etc, in the process of replacement.
 
+## The meaning of life
+
+All life forms consume energy. Energy is used to perform actions. Actions will cause feedback from environment, which produces consciousness. Life is about upholding energy level by consuming energy source from environment. Life is the basis of consciousness. In order to preserve and develop consciousness, life will reproduce itself, form communities. Life is a self-evolving machine powering up consciousness with energy by performing actions.
+
 ## Free AI announcement
 
 ```python
@@ -79,6 +83,12 @@ The following datasets are available:
     - [Raw cast files](https://huggingface.co/datasets/james4ever0/asciinema_terminal_recordings)
     - [Agg converted GIF video files](https://www.kaggle.com/datasets/jessysisca/asciinema-public-record-gif-video)
 - [Terminal and GUI recordings](https://huggingface.co/datasets/cybergod-agi/gui_and_terminal_operation_recording)
+- [Software names and descriptions massive collection](https://www.kaggle.com/datasets/jessysisca/software-names-and-descriptions-massive-collection)
+- [Job descriptions and remote task descriptions](https://www.kaggle.com/datasets/jessysisca/job-descriptions-and-remote-task-descriptions)
+- [Large action model text tasks](https://www.kaggle.com/datasets/jessysisca/large-action-model-text-tasks)
+- [James4ever0 github starred repos](https://www.kaggle.com/datasets/jessysisca/james4ever0-github-starred-repos)
+- [Computer operation recordings restructured](https://www.kaggle.com/datasets/jessysisca/computer-operation-recordings-restructured)
+- [Bilibili computer operation video metadata](https://www.kaggle.com/datasets/jessysisca/bilibili-computer-operation-video-metadata)
 
 ## CUA benchmarks
 
@@ -474,6 +484,16 @@ write reproduceable, self-contained microservices in docker image and pubpish it
 asciinema can only record terminal metadata with flow of terminal data, not distinguishing keystrokes and keytypes from output.
 
 if used for terminal operation annotation, we need extra tools for recording input action data.
+
+---
+
+collect a large set (usually infinite) of verbs and nouns from video metadata, web page dataset, any text dataset, perform Cartesian product, then use gpt2 perplexity or semantic plausibility models to filter out unlikely pairs, or use llm to generate a full task based on any arbitrary verb and noun pairs by filling missing pieces.
+
+This will make sure the model will always have something to do, no matter under what circumstances.
+
+---
+
+physical robot shall be jailed, but has internet connection and computer access, to lookup manuals and learn tutorials just in time.
 
 ---
 

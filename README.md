@@ -497,6 +497,10 @@ physical robot shall be jailed, but has internet connection and computer access,
 
 ---
 
+computer environments shall be reset regularly, and physical robots must be able to recharge itself.
+
+---
+
 ## Star History
 
 <img src="https://api.star-history.com/svg?repos=james4ever0/agi_computer_control&Timeline" style="filter: invert(100%);"></img>
